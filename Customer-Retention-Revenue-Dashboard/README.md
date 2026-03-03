@@ -1,11 +1,11 @@
-# 📊 CUSTOMER RETENTION & REVENUE ANALYTICS DASHBOARD
+#  CUSTOMER RETENTION & REVENUE ANALYTICS DASHBOARD
 
-## 📝 Project Summary
+##  Project Summary
 This project delivers an end-to-end Power BI solution to monitor **Customer Lifetime Value (CLV)** and **Retention Health**. By analyzing 905 orders totaling **$324.24K**, I identified specific segments where loyalty is high but revenue is under-tapped. The dashboard is divided into two strategic views: Executive Performance and Customer Retention.
 
 ---
 
-## 🖥️ EXECUTIVE PERFORMANCE OVERVIEW
+##  EXECUTIVE PERFORMANCE OVERVIEW
 This page provides a high-level pulse check on sales and customer acquisition.
 
 ### **Core KPIs**
@@ -21,7 +21,7 @@ This page provides a high-level pulse check on sales and customer acquisition.
 
 ---
 
-## 📈 CUSTOMER RETENTION & VALUE ANALYSIS
+##  CUSTOMER RETENTION & VALUE ANALYSIS
 This page focuses on the quality of our customer base and long-term profitability.
 
 ### **Retention & Value KPIs**
@@ -37,7 +37,7 @@ This page focuses on the quality of our customer base and long-term profitabilit
 
 ---
 
-## 🛠️ Technical Implementation
+##  Technical Implementation
 * **Data Modeling:** Followed a **Star Schema** approach to optimize filtering speed and calculation accuracy across multiple dimensions (Date, Geography, Channel).
 * **Advanced Visual Logic:** * **Conditional Formatting:** Applied to the Country chart so that bar height represents **Revenue** while color represents **Retention Rate**.
     * **Slicer Optimization:** Implemented a filter on the **Year_Month** slicer to ensure only months with active sales data are visible, improving user experience.
