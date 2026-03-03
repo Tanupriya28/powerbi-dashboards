@@ -1,15 +1,15 @@
-# 📊 Logistics Performance & Revenue Risk Audit
+#  Logistics Performance & Revenue Risk Audit
 **A Power BI Analytics Portfolio Project**
 
-## 📖 Project Strategy
+##  Project Strategy
 This project moves beyond standard reporting to provide a diagnostic audit of supply chain failures. By linking logistical latency to financial exposure, the dashboard enables stakeholders to prioritize interventions based on dollar value, not just shipment counts.
 
-### 🎯 Business Objective
+###  Business Objective
 Identify the exact "where, who, and how much" of delivery delays to mitigate customer churn and safeguard **$13.69K in at-risk revenue**.
 
 ---
 
-## 🛠️ Technical Deep-Dive
+##  Technical Deep-Dive
 
 ### 1. Data Architecture & ETL (Power Query)
 The raw dataset required significant "cleaning" and restructuring to support multi-dimensional analysis:
@@ -26,30 +26,30 @@ I avoided basic counts in favor of "Strategic Measures" that drive action:
 **Core Metric Logic:**
 Revenue_At_Risk = CALCULATE([Total_Revenue], Fact_Shipments[Is_Delayed] = 1)
 
-## 🧠 Overcoming Technical Challenges
+##  Overcoming Technical Challenges
 •	The "Repetitive Chart" Problem: Initial drafts suffered from redundant bar charts. I solved this by implementing a Heatmap Matrix for root-cause analysis and a Scatter Chart to analyze the Correlation between Shipping Cost and Delivery Speed.
 
 •	Relationship Complexity: Managing multiple date and location keys required a strict Star Schema approach to avoid circular dependencies and ensure high-speed filtering across all 4 dashboard pages.
 ________________________________________
-## 📈 Executive Summary of Findings
-🛑 Operational Root Causes
+##  Executive Summary of Findings
+ Operational Root Causes
 
 •	Node Failure: Warehouse 5 is the primary bottleneck in the network, particularly when routing through Dragonfly Express (1.19% delay rate).
 
 •	Carrier Value: Loggi is identified as the "Gold Standard" for speed, while Correios contributes most to average delay severity.
 
-💰 Financial & Regional Risk
+ Financial & Regional Risk
 
 •	Revenue Exposure: Health & Beauty products are the most financially vulnerable, with $3.70K currently delayed.
 
 •	Geography of Risk: Geographic analysis reveals that customers in GO and ES face the highest probability of delay incidents.
 ________________________________________
-## 🚀 Final Recommendations
+##  Final Recommendations
 1.	Contractual Review: Renegotiate SLAs with Dragonfly Express or re-route high-value shipments to Loggi.
 2.	Process Audit: Conduct a deep-dive into Warehouse 5 internal fulfillment workflows.
 3.	Retention Strategy: Proactively communicate with the Top 10 Sellers in the Health & Beauty category to manage customer expectations.
 ________________________________________
-### 📊 The 16-Metric Analytics Framework
+###  The 16-Metric Analytics Framework
 The dashboard's intelligence is powered by a tiered DAX architecture:
 
 | Category | Metrics |
@@ -63,7 +63,7 @@ The dashboard's intelligence is powered by a tiered DAX architecture:
 **Featured Logic (Revenue at Risk):**
 Identifies the exact dollar value ($13.69K) of orders trapped in "Delayed" status, allowing for prioritized financial recovery.
 
-## 📥 Power BI Dashboard File
+##  Power BI Dashboard File
 [Download PBIX here](https://drive.google.com/file/d/12UYBHR4PYVsmSOd0UhZeUFCSgrFQkyI_/view?usp=sharing)
 
 
