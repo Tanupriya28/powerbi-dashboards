@@ -44,5 +44,8 @@ This page focuses on the quality of our customer base and long-term profitabilit
 * **DAX Development:** Created custom measures for **CLV**, **Retention Rate %**, and **Repeat Purchase Rate** to move beyond basic reporting into behavioral analytics.
 
 ---
+## Dashboard
+ **[Download the Power BI Dashboard](https://drive.google.com/file/d/1DVtXoItlf6yVbVz3PhE8r3h_uiQeYqm_/view?usp=sharing)**
 
+File format: `.pbix`
 
