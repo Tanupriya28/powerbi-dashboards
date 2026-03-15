@@ -94,3 +94,7 @@ This dashboard focuses on monitoring fraud activity trends and identifying suspi
 
 ---
 
+# Dashboard 
+**[Download the Power BI Dashboard](https://drive.google.com/file/d/1NlEX0j0IZf4NV5f3fuwb02-_noVBf29I/view?usp=sharing)**
+
+File format: `.pbix`
